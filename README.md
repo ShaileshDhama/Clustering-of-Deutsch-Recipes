@@ -1,6 +1,6 @@
 # Clustering-of-Deutsch-Recipes
 
-## Clustering of Deutsch Recipes into 3 different clusters using tSNE and K-Means.
+## Clustering of Deutsch Recipes into 3 different clusters using t-SNE and K-Means.
 
 **Author**: **SHAILESH DHAMA**
 
