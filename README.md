@@ -1,40 +1,45 @@
 # Clustering-of-Deutsch-Recipes
+
 ## Clustering of Deutsch Recipes into 3 different clusters using tSNE and K-Means.
-**Author**: SHAILESH DHAMA
+
+**Author**: **SHAILESH DHAMA**
 
 The contents of this repository is a detailed analysis of the project. This analysis intends in the hopes of making the work accessible and replicable.
 
-### Data
+### Data:
 
 This dataset contains 12190 german recipes with metadata crawled from chefkoch.de
 
-## Methods
-- descriptive analysis
-- choices made
-- key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
+## Steps:
+
+- Data Cleansing and Processing. 
+- Stemming and Tokenization.
+- Vectorisation using tfidf_vectorizer(fitting it with "plot" to create vectors)
+- Perform Principal component analysis (PCA) for dimensioanl reduction.
+- Clustering using K-Means and visualise the same.
+- Clustering using t-SNE and visualise the same.
 
 ## Results:
 
 #### K-Means
-![graph1](./images/kmeans1.png)
-> Sentence about visualization.
+![K-Means](./kmeans1.PNG)
+> Table comprising of detailed clusters.
 
 #### K-Means Visualisation
-![graph2](./images/kmeans2.png)
-> Sentence about visualization.
+![K-Means](./kmeans2.PNG)
+> Result of K-Means graphically.
 
 #### t-SNE
-![graph2](./images/tsne1.png)
-> Sentence about visualization.
+![t-SNE](./tsne1.PNG)
+> Five Types Of Clusters obtained  after employing t-SNE.
 
 #### t-SNE Visualisation
-![graph2](./images/tsne2.png)
-> Sentence about visualization.
+![t-SNE](./tsne2.PNG)
+> Result of t-SNE graphically.
 
-### For further information
+### For further information:-
 
-Please review the narrative of our analysis in [our jupyter notebook](./main_notebook.ipynb)
-
+Please review the narrative of our analysis in [our jupyter notebook](./b-ndelung-deutscher-rezepte.ipynb)
 For any additional questions, please contact **shaileshshettyd@gmail.com)
 
 
@@ -44,9 +49,8 @@ Here is where you would describe the structure of your repoistory and its conten
 
 ```
 
-├── README.md                       <- The top-level README for reviewers of this project.
-├── main_notebook.ipynb             <- narrative documentation of analysis in jupyter notebook
-├── presentation.pdf                <- pdf version of project presentation
-└── images                          <- both sourced externally and generated from code
+├── README.md                                    <- The top-level README for reviewers of this project.
+├── b-ndelung-deutscher-rezepte.ipynb            <- narrative documentation of analysis in jupyter notebook
+└── images                                       <- both sourced externally and generated from code
 
 ```
