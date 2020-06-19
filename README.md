@@ -40,17 +40,14 @@ This dataset contains 12190 german recipes with metadata crawled from chefkoch.d
 ### For further information:-
 
 Please review the narrative of our analysis in [our jupyter notebook](./b-ndelung-deutscher-rezepte.ipynb)
+
 For any additional questions, please contact **shaileshshettyd@gmail.com)
 
-
 ##### Repository Structure:
-
-Here is where you would describe the structure of your repoistory and its contents, for exampe:
 
 ```
 
 ├── README.md                                    <- The top-level README for reviewers of this project.
 ├── b-ndelung-deutscher-rezepte.ipynb            <- narrative documentation of analysis in jupyter notebook
 └── images                                       <- both sourced externally and generated from code
-
 ```
